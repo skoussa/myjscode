@@ -3,7 +3,7 @@ const readline = require('readline').createInterface({
   output: process.stdout
 });
  
-var x = 56643
+var x = 56643;
 console.log("x is " + x);
 readline.question('Enter code:', code => 
 {
